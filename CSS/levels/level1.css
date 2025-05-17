@@ -1,0 +1,107 @@
+/*universal selevtor
+*{
+    color: rgb(241, 221, 5);
+}
+
+element selector
+button{
+    color: rgb(123, 65, 231);
+    background-color: rgb(235, 198, 198);
+}
+
+h1{
+    color: rgb(227, 33, 7);
+    background-color: #f0c3c3;
+}
+
+p{
+    color: blueviolet;
+    background-color: #ffff00;
+}
+body{
+    background-color: lightblue;
+}
+
+span{
+    color: rgb(0, 0, 0);
+    background-color: rgb(28, 243, 8);
+}
+
+id selector
+#l1{
+    color: blue;
+}
+
+#l2{
+    color: blue;
+}
+class selector
+.l{
+    color: red;
+} */
+
+/* div{
+    color: aliceblue;
+    background-color: blue;
+}
+
+.heading{
+    color: red;
+}
+
+button{
+    background-color: green;
+} */
+
+/* p{
+    text-align: left;
+    color: rgb(27, 8, 232);
+}
+h1{
+    text-align: center;
+    color: royalblue;
+    text-decoration: black dotted underline;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+} */
+
+/* #l1{
+    font-weight: bold;
+}
+
+#l3{
+    font-weight: bolder;
+}
+
+#l2{
+    font-weight: lighter;
+}
+
+p
+{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 30px;
+    text-transform: capitalize;
+} */
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#outer{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#inner{
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}

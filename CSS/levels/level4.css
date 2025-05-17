@@ -1,0 +1,113 @@
+/* 
+body{
+    text-align: center;
+}
+
+  
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+    
+    
+}
+#container{
+    width: 200px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+#box1{
+    background-color: lightblue;
+    
+}
+#box2{
+    background-color: lightpink;
+    align-self: flex-end;
+}
+#box3{
+    background-color: lightyellow;
+}
+#box4{
+    background-color: lightcoral;
+}
+#box5{
+    background-color: lightgray;
+} */
+
+/* #outer{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 178, 234);
+}
+
+#inner{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 0, 0);
+} */
+
+/* div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: lightseagreen;
+}
+
+@media (max-width: 600px) {
+    div{
+        height: 25px;
+        width: 25px;
+    }
+} */
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(240, 128, 201);
+}
+
+@media (max-width: 300px) {
+    div {
+        height: 50px;
+        width: 50px;
+        background-color: green;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    div {
+        height: 50px;
+        width: 50px;
+        background-color: pink;
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 600px) {
+    div {
+        height: 50px;
+        width: 50px;
+        background-color: red;
+    }
+
+}
+
+@media (min-width: 300px) {
+    div {
+        height: 50px;
+        width: 50px;
+        background-color: blue;
+    }
+}

@@ -1,0 +1,89 @@
+/* #box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 1s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation-name: cam;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+#box:hover{
+    background-color: rgb(186, 186, 251);
+    border: 2px solid rgb(245, 9, 9);
+    font-size: 20px;
+    transform: scale(0.5,2);
+    transform: translate(-50%); 
+    transform: skew(20deg); 
+    transform: scale(5);
+    transform: translateY(-50%);
+
+}
+
+#box:active{
+    background-color: aqua;
+    border: 2px solid rgb(41, 238, 110);
+}
+
+#box:focus{
+    background-color: rgb(255, 0, 255);
+    border: 2px solid rgb(0, 255, 0);
+}
+ 
+#box::after{
+    content: "Hello";
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+@keyframes cam {
+    0%{
+        background-color: red;
+        border: 2px solid black;
+    }
+    50%{
+        background-color: rgb(109, 109, 237);
+        border: 2px solid rgb(8, 8, 8);
+    }
+    100%{
+        background-color: rgb(131, 232, 141);
+        border: 2px solid rgb(9, 9, 9);
+    }
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(248, 210, 210);
+    border: 5px solid rgb(247, 4, 4);
+    border-left: 5px solid black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: lodder 2s ease-in infinite;
+    animation-delay: 1s;
+}
+
+@keyframes lodder{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
